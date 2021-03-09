@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/adx-webapp/static/js/main.5e7ee8ff.chunk.js",
-    "main.js.map": "/adx-webapp/static/js/main.5e7ee8ff.chunk.js.map",
+    "main.js": "/adx-webapp/static/js/main.0a464829.chunk.js",
+    "main.js.map": "/adx-webapp/static/js/main.0a464829.chunk.js.map",
     "runtime-main.js": "/adx-webapp/static/js/runtime-main.3af7a55b.js",
     "runtime-main.js.map": "/adx-webapp/static/js/runtime-main.3af7a55b.js.map",
-    "static/js/2.307038d5.chunk.js": "/adx-webapp/static/js/2.307038d5.chunk.js",
-    "static/js/2.307038d5.chunk.js.map": "/adx-webapp/static/js/2.307038d5.chunk.js.map",
+    "static/js/2.3015ed57.chunk.js": "/adx-webapp/static/js/2.3015ed57.chunk.js",
+    "static/js/2.3015ed57.chunk.js.map": "/adx-webapp/static/js/2.3015ed57.chunk.js.map",
     "static/js/3.eb21a815.chunk.js": "/adx-webapp/static/js/3.eb21a815.chunk.js",
     "static/js/3.eb21a815.chunk.js.map": "/adx-webapp/static/js/3.eb21a815.chunk.js.map",
     "index.html": "/adx-webapp/index.html",
-    "static/js/2.307038d5.chunk.js.LICENSE.txt": "/adx-webapp/static/js/2.307038d5.chunk.js.LICENSE.txt"
+    "static/js/2.3015ed57.chunk.js.LICENSE.txt": "/adx-webapp/static/js/2.3015ed57.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3af7a55b.js",
-    "static/js/2.307038d5.chunk.js",
-    "static/js/main.5e7ee8ff.chunk.js"
+    "static/js/2.3015ed57.chunk.js",
+    "static/js/main.0a464829.chunk.js"
   ]
 }
