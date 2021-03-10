@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/adx-webapp/static/js/main.0e4f7119.chunk.js",
-    "main.js.map": "/adx-webapp/static/js/main.0e4f7119.chunk.js.map",
+    "main.js": "/adx-webapp/static/js/main.06f8b971.chunk.js",
+    "main.js.map": "/adx-webapp/static/js/main.06f8b971.chunk.js.map",
     "runtime-main.js": "/adx-webapp/static/js/runtime-main.789b13a7.js",
     "runtime-main.js.map": "/adx-webapp/static/js/runtime-main.789b13a7.js.map",
     "static/js/2.a062ad3a.chunk.js": "/adx-webapp/static/js/2.a062ad3a.chunk.js",
@@ -14,6 +14,6 @@
   "entrypoints": [
     "static/js/runtime-main.789b13a7.js",
     "static/js/2.a062ad3a.chunk.js",
-    "static/js/main.0e4f7119.chunk.js"
+    "static/js/main.06f8b971.chunk.js"
   ]
 }
