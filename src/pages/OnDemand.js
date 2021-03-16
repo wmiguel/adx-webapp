@@ -92,7 +92,7 @@ function OnDemand () {
             
             </div>
 
-            <script>
+            <script type="text/javascript">
                 closeTab();
             </script>
         </React.Fragment>

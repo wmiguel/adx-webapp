@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Dashboard() {
-    return(
+    return (
         <React.Fragment>
             <header>
                 <h1>Dashboard</h1>
@@ -29,7 +29,8 @@ function Dashboard() {
                     </div>
                 </section>
             </div>
-        </React.Fragment>)
-};
+        </React.Fragment>
+    )
+}
 
 export default Dashboard;

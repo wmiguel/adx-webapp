@@ -16,40 +16,7 @@
   </head>
   <body>
     <div class="navbar-background"></div>
-    <div id="container">
-      <aside class="nav">
-        <img src="https://cdn.audionamix.com/adx-logo-services-light.png">
-        <hr />
-        <a id="link-one" href="/dashboard" class="nav__link" data-link>
-          <i class="bi bi-house"></i> Dashboard
-        </a>
-        <a id="link-two" href="/work-orders" class="nav__link" data-link>
-          <i class="bi bi-clipboard"></i> Work Orders
-        </a>
-        <a id="link-three" href="/on-demand" class="nav__link" data-link>
-          <i class="bi bi-file-earmark-music"></i> On Demand
-        </a>
-        <a id="link-four" href="/admin" class="nav__link" data-link>
-          <i class="bi bi-person"></i> Administration
-        </a>
-      </aside>
-      <nav id="notifications">
-        <button class="navbar-toggler">
-          <span class="navbar-toggler-bar burger-lines"></span>
-          <span class="navbar-toggler-bar burger-lines"></span>
-          <span class="navbar-toggler-bar burger-lines"></span>
-        </button>
-        <span id="icons">
-          <i class="bi bi-person-circle" title="william.miguel@audionamix.com"></i>
-          <p>william.miguel@audionamix.com</p>
-          <i class="bi bi-bell-fill" title="Notifications"></i>
-          <i class="bi bi-box-arrow-right" title="Logout"></i>
-        </span>
-      </nav>
-      
-      <main id="root"></main>
-    
-    </div>
+    <div id="container"></div>
     <footer>
       <section id="play-title">
         <h3>08 Calling Occupants Of Interplanetary Craft (The Recognized Anthem Of World Contact Day).mp3</h3>
@@ -61,95 +28,96 @@
       </section>
     </footer>
     
-    <script>
-      const navbarToggler = document.querySelector(".navbar-toggler");
-      const navbarMenu = document.querySelector(".nav");
-      const navBackground = document.querySelector(".navbar-background");
+    <script type="text/javascript">
+      alert("roger roger");
+      // const navbarToggler = document.querySelector(".navbar-toggler");
+      // const navbarMenu = document.querySelector(".nav");
+      // const navBackground = document.querySelector(".navbar-background");
 
-      const linkOne = document.querySelector("#link-one");
-      const linkTwo = document.querySelector("#link-two");
-      const linkThree = document.querySelector("#link-three");
-      const linkFour = document.querySelector("#link-four");
+      // const linkOne = document.querySelector("#link-one");
+      // const linkTwo = document.querySelector("#link-two");
+      // const linkThree = document.querySelector("#link-three");
+      // const linkFour = document.querySelector("#link-four");
 
-      navbarToggler.addEventListener("click", () => {
-        navbarMenu.classList.add("motion");
-        navBackground.classList.add("clicked");
-      });
+      // navbarToggler.addEventListener("click", () => {
+      //   navbarMenu.classList.add("motion");
+      //   navBackground.classList.add("clicked");
+      // });
 
-      window.onclick = function (event) {
-        if (event.target == navBackground) {
-          navbarMenu.classList.remove("motion");
-          navBackground.classList.remove("clicked");
-        }
-      }
+      // window.onclick = function (event) {
+      //   if (event.target == navBackground) {
+      //     navbarMenu.classList.remove("motion");
+      //     navBackground.classList.remove("clicked");
+      //   }
+      // }
 
-      linkOne.addEventListener("click", () => {
-        navbarMenu.classList.remove("motion");
-        navBackground.classList.remove("clicked");
-        linkOne.classList.add("beamed");
-        linkTwo.classList.remove("beamed");
-        linkThree.classList.remove("beamed");
-        linkFour.classList.remove("beamed");
+      // linkOne.addEventListener("click", () => {
+      //   navbarMenu.classList.remove("motion");
+      //   navBackground.classList.remove("clicked");
+      //   linkOne.classList.add("beamed");
+      //   linkTwo.classList.remove("beamed");
+      //   linkThree.classList.remove("beamed");
+      //   linkFour.classList.remove("beamed");
 
-      });
+      // });
 
-      linkTwo.addEventListener("click", () => {
-        navbarMenu.classList.remove("motion");
-        navBackground.classList.remove("clicked");
-        linkOne.classList.remove("beamed");
-        linkTwo.classList.add("beamed");
-        linkThree.classList.remove("beamed");
-        linkFour.classList.remove("beamed");
-      });
+      // linkTwo.addEventListener("click", () => {
+      //   navbarMenu.classList.remove("motion");
+      //   navBackground.classList.remove("clicked");
+      //   linkOne.classList.remove("beamed");
+      //   linkTwo.classList.add("beamed");
+      //   linkThree.classList.remove("beamed");
+      //   linkFour.classList.remove("beamed");
+      // });
 
-      linkThree.addEventListener("click", () => {
-        navbarMenu.classList.remove("motion");
-        navBackground.classList.remove("clicked");
-        linkOne.classList.remove("beamed");
-        linkTwo.classList.remove("beamed");
-        linkThree.classList.add("beamed");
-        linkFour.classList.remove("beamed");
-      });
+      // linkThree.addEventListener("click", () => {
+      //   navbarMenu.classList.remove("motion");
+      //   navBackground.classList.remove("clicked");
+      //   linkOne.classList.remove("beamed");
+      //   linkTwo.classList.remove("beamed");
+      //   linkThree.classList.add("beamed");
+      //   linkFour.classList.remove("beamed");
+      // });
 
-      linkFour.addEventListener("click", () => {
-        navbarMenu.classList.remove("motion");
-        navBackground.classList.remove("clicked");
-        linkOne.classList.remove("beamed");
-        linkTwo.classList.remove("beamed");
-        linkThree.classList.remove("beamed");
-        linkFour.classList.add("beamed");
-      });
+      // linkFour.addEventListener("click", () => {
+      //   navbarMenu.classList.remove("motion");
+      //   navBackground.classList.remove("clicked");
+      //   linkOne.classList.remove("beamed");
+      //   linkTwo.classList.remove("beamed");
+      //   linkThree.classList.remove("beamed");
+      //   linkFour.classList.add("beamed");
+      // });
     </script>
-    <script>
-      function extractTabs(evt, tabContent) {
-        var i, extractContent, extractTab;
+    <script type="text/javascript">
+      // function extractTabs(evt, tabContent) {
+      //   var i, extractContent, extractTab;
 
-        extractContent = document.getElementsByClassName("extract-content");
-        for (i = 0; i < extractContent.length; i++) {
-          extractContent[i].style.display = "none";
-        }
+      //   extractContent = document.getElementsByClassName("extract-content");
+      //   for (i = 0; i < extractContent.length; i++) {
+      //     extractContent[i].style.display = "none";
+      //   }
 
-        extractTab = document.getElementsByClassName("extract-tab");
-        for (i = 0; i < extractTab.length; i++) {
-          extractTab[i].className = extractTab[i].className.replace(" active", "");
-        }
+      //   extractTab = document.getElementsByClassName("extract-tab");
+      //   for (i = 0; i < extractTab.length; i++) {
+      //     extractTab[i].className = extractTab[i].className.replace(" active", "");
+      //   }
 
-        extractTab = document.getElementsByClassName("admin-tab");
-        for (i = 0; i < extractTab.length; i++) {
-          extractTab[i].className = extractTab[i].className.replace(" active", "");
-        }
+      //   extractTab = document.getElementsByClassName("admin-tab");
+      //   for (i = 0; i < extractTab.length; i++) {
+      //     extractTab[i].className = extractTab[i].className.replace(" active", "");
+      //   }
 
-        document.getElementById(tabContent).style.display = "block";
-        evt.currentTarget.className += " active";
-      }
+      //   document.getElementById(tabContent).style.display = "block";
+      //   evt.currentTarget.className += " active";
+      // }
 
-      function closeTab(taggedName) {
-        var idTag = document.getElementById(taggedName);
-        var tabTag = document.getElementById(taggedName);
+      // function closeTab(taggedName) {
+      //   var idTag = document.getElementById(taggedName);
+      //   var tabTag = document.getElementById(taggedName);
 
-        console.log();
-        idTag.remove();
-      }
+      //   console.log();
+      //   idTag.remove();
+      // }
     </script>
   </body>
 </html>
